@@ -1,0 +1,132 @@
+body  { 
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    color: #333333;
+    padding-bottom: 40px;
+	padding-top: 60px;
+} 
+.maintitle {
+    background-color: #FBFBFB;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #F5F5F5);
+    background-repeat: repeat-x;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    list-style: none outside none;
+    margin: 0 0 18px;
+    padding: 7px 14px;	
+ }
+
+#profileblock  h1 { font-size: 22px; text-align: center; margin:0; }
+#profileblocktitle { margin-bottom: 0;}
+
+.profession { font-size: 1em; font-weight: bold; text-align: center; padding: 0 10px; }
+.contactinflo { padding: 0 20px; }
+.nomargins { margin: 0; } 
+
+#profileblockimg  img { display: block; margin: 0px auto;  }
+
+#profileblock  p { padding: 5px 10px 0; }
+ 
+.socialmedia { 
+	padding: 5px 5px 0px 5px;
+	text-align: center;
+	margin-top: 5px;
+	background-color: #FBFBFB;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #F5F5F5);
+	border-radius: 0px 0px 4px 4px;
+	border-top: 1px solid #E3E3E3;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+ }
+ div.well { 
+	padding-bottom: 0;
+	background-color: #FBFBFB;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #F5F5F5);
+}
+
+.customheroe { padding:0; position: relative; }
+.project { margin-bottom: 20px; }
+.project:after{ content: "";display: block; height: 0; visibility: hidden; clear: both;}
+.project  img{ float: left;}
+div.projectbody{ float: left; overflow:  auto; padding: 10px;}
+.muted  {margin-bottom: 0; font-size: 0.8em;}
+.container .credit { margin: 10px 0 5px; }
+
+#theskills th { width: 70px; }
+
+#assignments { max-width: 90%; }
+#assignmentstable  tr, #assignmentstable td, #assignmentstable th{ word-wrap:break-word; word-break: hyphenate;  }
+ 
+div[id^="page"]{ padding-top: 60px; } 
+div[id^="page"]:last-child{ padding-top: 60px; }
+
+#myresume { padding: 5px 10px; text-align: center;}
+
+#page7 { height: 90%; }
+
+#addresstable { margin-bottom: 5px; max-width: 70%; width: auto; margin: 0 auto; font-weight: bold;}
+#addresstable th, #addresstable td {padding: 0; border: 0;}
+#addresstable td { padding-left: 5px; }
+
+#footer{  
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #04498C, #033C73);
+    background-repeat: repeat-x;
+    border-color: #033464;
+    border-top: 1px solid #ccc;    
+    position: relative;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.sidebar-nav-fixed {
+    position:fixed;
+    top:60px;
+    width:21.97%;
+}
+
+html, body { height: 100%; }
+#wrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; }
+#push, #footer { height: 50px; }
+ 
+#thetopbtn { display: block; position: absolute; top:15px; right: 20px;  }
+
+/* Media Queries */
+
+@media (max-width: 400px) {
+	#assignmentstable  tr, #assignmentstable td, #assignmentstable th{ 
+        word-wrap:break-word; word-break: break-all;  
+    }
+}
+
+@media (max-width: 500px) {
+	#assignmentstable { font-size: 0.7em; }
+}
+ 
+@media (max-width: 767px) {
+    body {
+        padding-top: 0;
+    }
+    .sidebar-nav-fixed {
+        width:auto;
+    }
+    #footer { 
+        margin-left: -20px; 
+        margin-right: -20px; 
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 979px) {
+    body {
+        padding-top: 0;
+    }
+    .sidebar-nav-fixed {
+        position:static;
+        width: auto;
+    }
+}
+
+/* =========================== Put your style below this line ===========================*/
